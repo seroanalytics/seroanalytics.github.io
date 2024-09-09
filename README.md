@@ -1,5 +1,3 @@
-# seroanalytics.org
-
 Tools under development:
 
 | Name    | Description | Status | Version |
