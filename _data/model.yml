@@ -6,7 +6,7 @@
 - name: "epikinetics"
   description: "epikinetics is an R package for Bayesian hierarchical modelling of antibody kinetics."
   docs: "/epikinetics"
-  gh_repo: serosim
+  gh_repo: epikinetics
 
 - name: "serojump"
   description: "serojump is an R package providing tools for fitting serological models to antibody kinetics data using reversible-jump Markov Chain Monte Carlo (RJ-MCMC)."
