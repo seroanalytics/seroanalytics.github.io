@@ -26,6 +26,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "/"
 url: "https://seroanalytics.org"
 github_username:  seroanalytics
+dockerhub_org: seroanalytics
 
 # Build settings
 theme: minima
