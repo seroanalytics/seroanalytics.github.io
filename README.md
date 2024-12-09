@@ -10,7 +10,7 @@ Tools are configured in 3 yaml files:
 * `_data/visualise.yml`
 
 You must provide a name, description and gh repo for each tool, plus an optional logo, 
-docs link, and link to a web app
+docs link, and link to a web app. Logo files should be placed in the `_assets` subdirectory.
 
 e.g. a complete entry looks like:
 ```yaml
@@ -28,3 +28,6 @@ There is just one page, `index.md`, the appearance of which is controlled by the
 
 ## Serving locally
 Run `jekyll serve` to build the site locally. 
+
+## Deploying
+The site is built and deployed to GitHub pages via the `jekyll.yml` action in `.github/workflows`.
