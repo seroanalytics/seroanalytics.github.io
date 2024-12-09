@@ -1,0 +1,6 @@
+- name: "seroviz"
+  description: "SeroViz is an online tool for visualising surveillance and exposure data. Scale and disaggregate, fit splines, and download plots."
+  docs: "/seroviz"
+  logo: "seroviz.png"
+  gh_repo: seroviz
+  web: "https://seroviz.seroanalytics.org"

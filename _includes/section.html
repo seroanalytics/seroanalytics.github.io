@@ -1,0 +1,21 @@
+{% if tools.size == 1 %}
+<div class="col-md-6 mb-4">
+    <h5>{{ title }}</h5>
+    {% for tool in tools %}
+    {% include tool.html tool=tool %}
+    {% endfor %}
+</div>
+{% endif %}
+{% if tools.size > 1 %}
+<div class="col-md-12 mb-4">
+    <h5>{{ title }}</h5>
+    <div class="row">
+        {% for tool in tools %}
+        <div class="col-md-6 mb-4">
+            {% include tool.html tool=tool %}
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endif %}
+

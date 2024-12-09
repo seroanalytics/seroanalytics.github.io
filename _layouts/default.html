@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serological Modelling Tools</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .hero-section {
+            text-align: center;
+            padding: 60px 20px;
+            background-color: #ffffff;
+            margin-bottom: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .hero-section h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .hero-section p {
+            font-size: 1.2rem;
+            color: #6c757d;
+        }
+
+        .btn-seroviz {
+            --bs-btn-color: #fff;
+            --bs-btn-bg: #6a478f;
+            --bs-btn-border-color: #6a478f;
+            --bs-btn-border-radius: .5rem;
+            --bs-btn-hover-color: #fff;
+            --bs-btn-hover-bg: #4f356b;
+            --bs-btn-hover-border-color: #4f356b;
+            --bs-btn-focus-shadow-rgb: #6a478f;
+            --bs-btn-active-color: #fff;
+            --bs-btn-active-bg: #4f356b;
+            --bs-btn-active-border-color: #4f356b;
+            --bs-btn-disabled-bg: #b3b1da;
+            --bs-btn-disabled-border-color: #b3b1da;
+        }
+
+        .btn-serosim {
+            --bs-btn-color: #fff;
+            --bs-btn-bg: #6a478f;
+            --bs-btn-border-color: #6a478f;
+            --bs-btn-border-radius: .5rem;
+            --bs-btn-hover-color: #fff;
+            --bs-btn-hover-bg: #4f356b;
+            --bs-btn-hover-border-color: #4f356b;
+            --bs-btn-focus-shadow-rgb: #6a478f;
+            --bs-btn-active-color: #fff;
+            --bs-btn-active-bg: #4f356b;
+            --bs-btn-active-border-color: #4f356b;
+            --bs-btn-disabled-bg: #b3b1da;
+            --bs-btn-disabled-border-color: #b3b1da;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <!-- Hero Section -->
+    <div class="hero-section mt-5">
+        <h1>Welcome to Seroanalytics</h1>
+        <p>A suite of open-source tools for exploring, modeling and
+            understanding serological data.</p>
+        <a href="/seroanalytics" class="text-dark"><img alt="GitHub logo"
+                                                        height="20"
+                                                        class="mx-1"
+                                                        src="assets/github-mark.svg"/>GitHub</a>
+        <a href="" class="text-dark mx-3"><img alt="Docker logo"
+                                               height="20"
+                                               class="mx-1"
+                                               src="assets/docker-mark-blue.svg"/>Docker
+            Hub</a>
+    </div>
+
+    <div class="row text-center">
+        {% assign tools = site.data.simulate %}
+        {% assign title = "Simulate" %}
+        {% include section.html %}
+        {% assign tools = site.data.visualise %}
+        {% assign title = "Visualise" %}
+        {% include section.html title="Visualise" %}
+        {% assign tools = site.data.model %}
+        {% assign title = "Model" %}
+        {% include section.html tools=site.data.model title="Model" %}
+    </div>
+</div>
+
+</body>
+</html>

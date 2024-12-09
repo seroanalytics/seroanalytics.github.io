@@ -1,0 +1,5 @@
+- name: "serosim"
+  description: "serosim is an R package for simulating serological data from user-specified vaccine or infection-generated and antibody kinetics processes."
+  docs: "/serosim"
+  gh_repo: serosim
+  logo: "serosim.png"

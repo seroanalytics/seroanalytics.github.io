@@ -1,7 +1,30 @@
-Tools under development:
+# Homepage for Seroanalytics.org
 
-| Name    | Description | Status | Version |
-| -------- | ------- | ------ | ----- |
-| [SeroViz](https://seroviz.seroanalytics.org)  | A web app for visualising and exploring serological datasets | [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip) | 0.0.0-alpha |
-| [epikinetics](https://seroanalytics.org/epikinetics/) | R package for modelling biomarker kinetics | [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip) | 0.0.0-alpha |
-| [serojump](https://seroanalytics.org/serojump/) | R package serologically inferring missed infections using reversible-jump mcmc | [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip) | 0.0.0-alpha |
+## Requirements
+* Jekyll: https://jekyllrb.com/docs/installation/
+
+## Adding/modifying tools
+Tools are configured in 3 yaml files:
+* `_data/model.yml`
+* `_data/simulate.yml`
+* `_data/visualise.yml`
+
+You must provide a name, description and gh repo for each tool, plus an optional logo, 
+docs link, and link to a web app
+
+e.g. a complete entry looks like:
+```yaml
+- name: "seroviz"
+  description: "SeroViz is an online tool for visualising surveillance and exposure data. Scale and disaggregate, fit splines, and download plots."
+  docs: "/seroviz"
+  logo: "seroviz.png"
+  gh_repo: seroviz
+  web: "https://seroviz.seroanalytics.org"
+```
+
+The html template for displaying a tool is in `_includes/tool.html`.
+
+There is just one page, `index.md`, the appearance of which is controlled by the `_layouts/default.html` template.
+
+## Serving locally
+Run `jekyll serve` to build the site locally. 
