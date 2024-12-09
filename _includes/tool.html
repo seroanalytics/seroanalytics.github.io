@@ -2,12 +2,12 @@
     <div class="card-body">
         <p class="card-text text-start">
             {% if tool.logo %}
-            <a href="{{ tool.docs }}"><img
+            <a href="{{ tool.docs | default: tool.web }}"><img
                     src="assets/{{ tool.logo }}"
                     alt="{{ tool.name }} logo"
                     height="50"/></a>
             {% else %}
-            <a href="{{ tool.docs }}"><b>{{ tool.name }}</b></a>
+            <a href="{{ tool.docs | default: tool.web }}"><b>{{ tool.name }}</b></a>
             {% endif %}
             <a href="https://www.repostatus.org/#active"><img
                     src="https://www.repostatus.org/badges/latest/active.svg"
