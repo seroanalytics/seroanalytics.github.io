@@ -12,3 +12,4 @@
   description: "serojump is an R package providing tools for fitting serological models to antibody kinetics data using reversible-jump Markov Chain Monte Carlo (RJ-MCMC)."
   docs: "/serojump"
   gh_repo: serojump
+  logo: "serojump_hex.png"
