@@ -3,3 +3,5 @@
   logo: "seroviz.png"
   gh_repo: seroviz
   web: "https://seroviz.seroanalytics.org"
+  last_commit: "2024-10-15"
+  r_check: false

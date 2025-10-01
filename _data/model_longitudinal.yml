@@ -1,0 +1,24 @@
+- name: "serosolver"
+  description: "serosolver is an R package using a hierarchical model with a custom Markov chain Monte Carlo sampler to simultaneously infer antibody kinetics and infection histories from cross-sectional or longitudinal serological data."
+  docs: "/serosolver"
+  gh_repo: serosolver
+  category: "longitudinal"
+  last_commit: "2024-11-15"
+  r_check: true
+
+- name: "epikinetics"
+  description: "epikinetics is an R package for Bayesian hierarchical modelling of antibody kinetics."
+  docs: "/epikinetics"
+  gh_repo: epikinetics
+  category: "longitudinal"
+  last_commit: "2024-10-20"
+  r_check: true
+
+- name: "serojump"
+  description: "serojump is an R package providing tools for fitting serological models to antibody kinetics data using reversible-jump Markov Chain Monte Carlo (RJ-MCMC)."
+  docs: "/serojump"
+  gh_repo: serojump
+  logo: "serojump_hex.png"
+  category: "longitudinal"
+  last_commit: "2024-11-25"
+  r_check: true
