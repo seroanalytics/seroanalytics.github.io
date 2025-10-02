@@ -21,7 +21,7 @@
 title: Seroanalytics
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  A suite of free, open-source tools for exploring, modeling and
+  A directory of free, open-source tools for exploring, modeling and
                                           understanding serological data.
 baseurl: "/"
 url: "https://seroanalytics.org"
