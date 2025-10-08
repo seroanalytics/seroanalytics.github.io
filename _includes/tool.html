@@ -41,6 +41,12 @@
                 Documentation
             </a>
             {% endif %}
+            {% if tool.doi %}
+            <a href="{{ tool.doi }}" class="tool-link" target="_blank">
+                <i class="fas fa-file-alt"></i>
+                DOI
+            </a>
+            {% endif %}
             {% if tool.external %}
             <a href="{{ tool.gh_repo }}" class="tool-link" target="_blank">
                 <i class="fab fa-github"></i>

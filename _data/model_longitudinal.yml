@@ -2,6 +2,7 @@
   description: "serosolver is an R package using a hierarchical model with a custom Markov chain Monte Carlo sampler to simultaneously infer antibody kinetics and infection histories from cross-sectional or longitudinal serological data."
   docs: "/serosolver"
   gh_repo: serosolver
+  doi: "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007840"
   category: "longitudinal"
   last_commit: "2024-11-15"
   r_check: true
@@ -20,6 +21,7 @@
   gh_repo: serojump
   logo: "serojump_hex.png"
   web: "https://seroanalytics.org/serojump-widget/"
+  doi: "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013467"
   category: "longitudinal"
   last_commit: "2024-11-25"
   r_check: true

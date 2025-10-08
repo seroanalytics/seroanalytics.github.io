@@ -4,5 +4,6 @@
   gh_repo: serosim
   logo: "serosim.png"
   web: "https://seroanalytics.org/serosim-web/"
+  doi: "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011384"
   last_commit: "2024-11-20"
   r_check: true

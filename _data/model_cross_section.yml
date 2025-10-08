@@ -2,6 +2,7 @@
   description: "Rsero is an R package to estimate the annual force of infection using serological data. It provides tools for analyzing cross-sectional serological surveys and fitting serocatalytic models."
   docs: "https://htmlpreview.github.io/?https://github.com/nathoze/Rsero/blob/master/vignettes/models.html"
   gh_repo: "https://github.com/nathoze/Rsero"
+  doi: "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012777"
   category: "cross-section"
   external: true
   last_commit: "2024-09-10"
