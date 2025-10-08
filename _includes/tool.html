@@ -29,16 +29,16 @@
             {% endif %}
         </p>
         <div class="tool-links">
-            {% if tool.docs %}
-            <a href="{{ tool.docs }}" class="tool-link" target="_blank">
-                <i class="fas fa-book"></i>
-                Documentation
-            </a>
-            {% endif %}
             {% if tool.web %}
             <a href="{{ tool.web }}" class="tool-link" target="_blank">
                 <i class="fas fa-external-link-alt"></i>
                 Web App
+            </a>
+            {% endif %}
+            {% if tool.docs %}
+            <a href="{{ tool.docs }}" class="tool-link" target="_blank">
+                <i class="fas fa-book"></i>
+                Documentation
             </a>
             {% endif %}
             {% if tool.external %}

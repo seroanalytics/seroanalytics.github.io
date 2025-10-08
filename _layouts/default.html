@@ -578,24 +578,6 @@
                 </div>
             </div>
 
-            <!-- Row 3: Interactive Widgets (full width) -->
-            <div class="content-section">
-                <div class="section-header">
-                    <h2 class="section-title" onclick="toggleSection('widgets')">
-                        <div class="section-icon">🎛️</div>
-                        Interactive Widgets
-                        <i class="fas fa-chevron-down"></i>
-                    </h2>
-                    <p class="section-subtitle">Explore data and models through interactive web applications</p>
-                </div>
-                <div class="section-content expanded" id="widgets-content">
-                    <div class="tools-grid">
-                        {% for tool in site.data.widgets %}
-                            {% include tool.html tool=tool %}
-                        {% endfor %}
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 

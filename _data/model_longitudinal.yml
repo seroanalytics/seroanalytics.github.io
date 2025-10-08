@@ -19,6 +19,7 @@
   docs: "/serojump"
   gh_repo: serojump
   logo: "serojump_hex.png"
+  web: "https://seroanalytics.org/serojump-widget/"
   category: "longitudinal"
   last_commit: "2024-11-25"
   r_check: true

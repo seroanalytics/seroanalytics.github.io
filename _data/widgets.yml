@@ -1,6 +1,0 @@
-- name: "serojump-widgets"
-  description: "Interactive widgets for serojump - R package tools for fitting serological models to antibody kinetics data using reversible-jump Markov Chain Monte Carlo (RJ-MCMC)."
-  gh_repo: serojump-widget
-  web: "https://seroanalytics.org/serojump-widget/"
-  logo: "serojump_hex.png"
-  last_commit: "2024-11-30"

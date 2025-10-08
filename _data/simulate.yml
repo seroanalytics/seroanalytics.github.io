@@ -3,5 +3,6 @@
   docs: "/serosim"
   gh_repo: serosim
   logo: "serosim.png"
+  web: "https://seroanalytics.org/serosim-web/"
   last_commit: "2024-11-20"
   r_check: true
