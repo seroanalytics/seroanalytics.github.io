@@ -21,7 +21,7 @@
 - name: "serosv"
   description: "serosv is an easy-to-use and efficient tool to estimate infectious diseases parameters (seroprevalence and force of infection) using serological data."
   docs: "https://oucru-modelling.github.io/serosv/index.html"
-  gh_repo: "https://github.com/OUCRU-Modelling/serosv/"
+  gh_repo: "https://github.com/OUCRU-Modelling/serosv"
   category: "cross-section"
   external: true
   last_commit: "2024-04-01"
