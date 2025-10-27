@@ -17,3 +17,13 @@
   last_commit: "2024-12-05"
   r_check: true
   logo: "serofoi.png"
+
+- name: "serosv"
+  description: "serosv is an easy-to-use and efficient tool to estimate infectious diseases parameters (seroprevalence and force of infection) using serological data."
+  docs: "https://oucru-modelling.github.io/serosv/index.html"
+  gh_repo: "https://github.com/OUCRU-Modelling/serosv/"
+  category: "cross-section"
+  external: true
+  last_commit: "2024-04-01"
+  r_check: true
+  logo: "serosv.png"
