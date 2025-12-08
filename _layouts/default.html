@@ -578,6 +578,28 @@
                 </div>
             </div>
 
+            <!-- Row 3: Other Tools -->
+            <div class="section-row">
+                <!-- Other Section -->
+                <div class="section-item">
+                    <div class="section-header">
+                        <h2 class="section-title" onclick="toggleSection('other')">
+                            <div class="section-icon">🔧</div>
+                            Other
+                            <i class="fas fa-chevron-down"></i>
+                        </h2>
+                        <p class="section-subtitle">Additional tools for serological analysis</p>
+                    </div>
+                    <div class="section-content expanded" id="other-content">
+                        <div class="tools-grid">
+                            {% for tool in site.data.other %}
+                                {% include tool.html tool=tool %}
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 

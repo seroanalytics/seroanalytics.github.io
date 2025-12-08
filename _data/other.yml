@@ -1,0 +1,20 @@
+- name: "serometrics"
+  description: "serometrics"
+  docs: ""
+  gh_repo: ""
+  category: "other"
+  external: true
+
+- name: "serocalculator"
+  description: "serocalculator"
+  docs: ""
+  gh_repo: ""
+  category: "other"
+  external: true
+
+- name: "seroCOP"
+  description: "seroCOP"
+  docs: ""
+  gh_repo: ""
+  category: "other"
+  external: true
