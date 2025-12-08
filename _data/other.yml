@@ -1,20 +1,20 @@
-- name: "serometrics"
-  description: "serometrics"
-  docs: ""
-  gh_repo: ""
+- name: "SeroMetrics"
+  description: "An R package designed to quantify an individual’s antigenic landscape, which comprises hemagglutination inhibition (HAI) titers against a panel of influenza viruses isolated at various times or in different antigenic spaces."
+  docs: "https://github.com/byyangyby/SeroMetrics"
+  gh_repo: "https://github.com/byyangyby/SeroMetrics"
   category: "other"
   external: true
 
 - name: "serocalculator"
-  description: "serocalculator"
-  docs: ""
-  gh_repo: ""
+  description: "Provides a rapid and computationally simple method for calculating seroconversion rates"
+  docs: "https://ucd-serg.github.io/serocalculator/articles/serocalculator.html"
+  gh_repo: "https://github.com/UCD-SERG/serocalculator"
   category: "other"
   external: true
 
 - name: "seroCOP"
-  description: "seroCOP"
-  docs: ""
-  gh_repo: ""
+  description: "R package for analyzing correlates of protection using Bayesian methods."
+  docs: "seroanalytics.org/seroCOP/"
+  gh_repo: "https://github.com/seroanalytics/seroCOP"
   category: "other"
-  external: true
+  external: false
