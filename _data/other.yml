@@ -14,7 +14,7 @@
 
 - name: "seroCOP"
   description: "R package for analyzing correlates of protection using Bayesian methods."
-  docs: "seroanalytics.org/seroCOP/"
-  gh_repo: "https://github.com/seroanalytics/seroCOP"
+  docs: "/seroCOP"
+  gh_repo: "seroCOP"
   category: "other"
   external: false
