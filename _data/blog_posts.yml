@@ -1,19 +1,19 @@
-- title: "WHAT DOES IT MEAN TO BE INFECTED?"
+- title: "1. WHAT DOES IT MEAN TO BE INFECTED?"
   description: "Unpacking the blurred lines between biology, diagnosis, transmission, and immunity."
   url: "https://www.davidhodgson.me/post/sm1_what_is_inf/"
 
-- title: "A DUMMIES' GUIDE TO SEROLOGICAL ASSAYS"
+- title: "2. A DUMMIES' GUIDE TO SEROLOGICAL ASSAYS"
   description: "Not all test results mean the same thing. The trick is knowing which oracle to trust."
   url: "https://www.davidhodgson.me/post/sm2_serological-assays/"
 
-- title: "CORRELATES OF PROTECTION: FUMBLING THROUGH THE TERMINOLOGY"
+- title: "3. CORRELATES OF PROTECTION: FUMBLING THROUGH THE TERMINOLOGY"
   description: "The (confusing) statistical frameworks that could accelerate vaccine approvals."
   url: "https://www.davidhodgson.me/post/sm3_cop1/"
 
-- title: "THE SHORTCUT TO VACCINE APPROVALS: WHEN BLOOD TESTS REPLACE CLINICAL TRIALS"
+- title: "4. THE SHORTCUT TO VACCINE APPROVALS: WHEN BLOOD TESTS REPLACE CLINICAL TRIALS"
   description: "A journey through history's successes (and stumbles)."
   url: "https://www.davidhodgson.me/post/sm4_cop2/"
 
-- title: "WHAT CAN I INFER FROM CROSS-SECTIONAL SEROLOGICAL DATA?"
+- title: "5. WHAT CAN I INFER FROM CROSS-SECTIONAL SEROLOGICAL DATA?"
   description: "A Practical Primer."
   url: "https://www.davidhodgson.me/post/sm5_cross/"
