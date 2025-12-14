@@ -5,13 +5,6 @@
   category: "other"
   external: true
 
-- name: "serocalculator"
-  description: "Provides a rapid and computationally simple method for calculating seroconversion rates"
-  docs: "https://ucd-serg.github.io/serocalculator/articles/serocalculator.html"
-  gh_repo: "https://github.com/UCD-SERG/serocalculator"
-  category: "other"
-  external: true
-
 - name: "seroCOP"
   description: "R package for analyzing correlates of protection using Bayesian methods."
   web: "https://seroanalytics.org/seroCOP-web/"
